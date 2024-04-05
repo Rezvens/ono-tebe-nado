@@ -62,6 +62,7 @@ header {
     height: 51px;
     background: none;
     border: #fff solid 1px;
+    word-spacing: normal;
 }
 
 .navbar {
@@ -103,7 +104,7 @@ header {
 .cover-image {
     grid-area: 1/1;
     min-height: 757px;
-    background-image: url(/images/cover.jpg);
+    background-image: url(./images/cover.jpg);
     opacity: 0.4;
     background-size: cover;
     background-position: center;
@@ -139,10 +140,6 @@ header {
     color: #fff;
     text-transform: uppercase;
     word-spacing: 0.85em;
-}
-
-.title-button {
-    word-spacing: normal;
 }
 
 .cover-title .accent-span {
@@ -209,15 +206,15 @@ header {
 }
 
 .card-image-1 {
-    background-image: url('/images/card-lot-01.jpg');
+    background-image: url('./images/card-lot-01.jpg');
 }
 
 .card-image-2 {
-    background-image: url('/images/card-lot-02.jpg');
+    background-image: url('./images/card-lot-02.jpg');
 }
 
 .card-image-3 {
-    background-image: url('/images/card-lot-03.jpg');
+    background-image: url('./images/card-lot-03.jpg');
 }
 
 .padding-left {
@@ -296,7 +293,6 @@ header {
 
 .footer__social-list {
     display: flex;
-    gap: 20px;
     list-style: none;
     padding-top: 4px;
     gap: 47px;
