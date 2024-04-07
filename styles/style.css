@@ -59,7 +59,7 @@ address {
 .cover {
   position: relative;
   height: 757px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
 }
